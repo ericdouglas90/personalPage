@@ -1,0 +1,113 @@
+:root {
+    --bkc-button: #EF3419;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    color: #CCC4C2;
+    list-style: none;
+    font-family: 'Orbitron', Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #393B44;
+}
+
+header {
+   width: 1100px;
+   height: 100px;
+   margin: auto;
+}
+
+.menu-top {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-top .logo-top {
+    font-size: 14px;
+}
+
+.menu-top ul {
+    display: flex;
+}
+
+.menu-top ul li {
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.menu-top ul li:hover {
+    background-color: var(--bkc-button);
+    border-radius: 5px;
+}
+
+section {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+section .image-for-me img{
+    width: 200px;
+    border-radius: 100px;
+}
+section p {
+    margin-bottom: 15px;
+}
+section .apresent p.description {
+    letter-spacing: 5px;
+}
+section .strong {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+section .medium {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+section .apresent .btn-hire {
+    width: 130px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    background-color: var(--bkc-button);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 15px;
+}
+section .apresent .btn-hire:hover {
+    opacity: 0.6;
+}
+
+section .tour-website {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+
+ .tour-website p.start-tour {
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+
